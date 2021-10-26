@@ -1,0 +1,43 @@
+h3 {
+    margin: 40px 0 0;
+    text-align: left;
+}
+
+ul {
+    margin: 8px 0 0 32px;
+}
+
+.item-row {
+    display: inline-flex;
+    align-items: baseline;
+    padding: 8px 16px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid #42b983;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.item-row:first-child {
+    margin-right: 6px;
+}
+
+.item-row__icon {
+    margin-right: 8px;
+}
+
+.item-row_active {
+    background: #42b983;
+    color: #ffffff;
+}
+
+.item-row__icon_rotate {
+    transform: rotate(90deg);
+}
+
+.link {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
